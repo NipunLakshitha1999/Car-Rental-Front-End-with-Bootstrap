@@ -1,0 +1,286 @@
+#main-div{
+    height: 80px;
+    position: fixed;
+    background: white;
+    z-index: 3000;
+    width: 100vw;
+}
+#nav-div1 {
+    left: 60%;
+}
+
+#nav-div1 > nav {
+    padding: 20px;
+    float: right;
+}
+
+.nav-container > ul {
+    display: flex;
+    float: right;
+    align-items: start;
+}
+
+.nav-container > ul > li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.nav-container > ul > li > a {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.nav-container > ul > li > a::after{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width:100%;
+    height: 3px;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.nav-container > ul > li > a:hover{
+    color: #BE2EDD;
+}
+.nav-container > ul > li > a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#lblEasy {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #BE2EDD;
+    margin-top: 10px;
+}
+
+#txtHeaderText {
+    margin-right: 67%;
+}
+
+#lblCar {
+    color: white;
+    font-weight: bold;
+}
+
+#lblSignIn {
+    color: white;
+}
+
+
+#homePhoto {
+    width: 100%;
+}
+
+
+span {
+    margin: 0 15px;
+    line-height: .7;
+    font-weight: bold;
+    color: white;
+    font-size: 77px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .45);
+    animation: span 3s ease-in infinite alternate;
+}
+
+#welcomeAnimate {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 30vh;
+    left: 27vw;
+
+}
+
+.letter {
+    display: inline-flex;
+    height: 62px;
+    width: 27px;
+    /* border: 2.5px solid #FF1EAD; */
+    border: 10px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .75),
+    inset 0 0 2px rgba(0, 0, 0, .45);
+
+    animation: letter 3s ease-in-out infinite alternate;
+}
+
+@keyframes span {
+    0%, 30% {
+        margin: 0 15px;
+    }
+    70%, 100% {
+        margin: 0 5px;
+    }
+}
+
+@keyframes letter {
+    0%, 30% {
+        width: 27px;
+    }
+    70%, 100% {
+        width: 30vw;
+    }
+}
+
+#section2 {
+    position: relative;
+    background-color: #dfe4ea;
+    top: 1vh;
+    height: 187px;
+}
+
+#ImgBook {
+    width: 85px;
+    top: 5vh;
+    position: absolute;
+}
+
+#sec1-div1 {
+    text-align: center;
+}
+
+#lblBokkWithConfidence {
+
+}
+
+#sec1{
+    position: relative;
+    height: 880px;
+}
+#sec1-sec1{
+    width: 1020px;
+    position: relative;
+    top: 7vh;
+}
+#sec1-sec1>img{
+    position: absolute;
+    width: 100vw;
+}
+#sec2{
+    position: relative;
+    height: 124vh;
+    background: #34495e;
+}
+#sec2-div1{
+    text-align: center;
+    padding-top: 5vh;
+}
+#lblFistClass{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#sec2-sec1{
+    position: relative;
+    top: 7vh;
+    left: 0.4vw;
+    width: 98vw;
+    height: 67vh;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+#sec3{
+    position: relative;
+}
+#sec3-div1{
+    width: 100%;
+    height: 40vh;
+    background-color: #2E2929;
+}
+#sec3-div1-div1{
+    display: inline-block;
+    position: relative;
+    left: 42%;
+}
+
+#lblE{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #F53B57;
+}
+#lblAsy{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: #3C40C6;
+}
+#lblCarRental{
+    color: white;
+    font-size: 20px;
+}
+#sec3-div1-div2>img{
+    width: 5vw;
+    position: absolute;
+    top: 0;
+    left: 36%;
+}
+#sec3-div1-div3{
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+#sec3-div1-div3>img{
+    width: 3vw;
+}
+#sec3-div1-div4{
+    position: relative;
+    left: 55%;
+    top: -2%;
+}
+#sec3-div1-div4>img{
+    width: 3vw;
+}
+.card>img{
+    height: 221px;
+}
+#addDriver{
+    position: relative;
+    top: 14vh;
+}
+#lbl{
+    position: absolute;
+    top: 20%;
+    left: 41%;
+
+}
+#admin-sign{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#inputFeild-admin{
+    position: absolute;
+    position: absolute;
+    top: 32%;
+    left: 34%;
+}
+#inputFeild>div>label{
+    font-weight: bold;
+}
+#btn-div{
+    position: absolute;
+    top: 180%;
+    left: 60%;
+}
+#btnGrouprentDetail{
+    position: relative;
+    top: 32vh;
+}
+

@@ -1,0 +1,33 @@
+
+#lbl{
+    position: absolute;
+    top: 20%;
+    left: 41%;
+
+}
+#admin{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#inputFeild{
+    position: absolute;
+    position: absolute;
+    top: 32%;
+    left: 34%;
+}
+#inputFeild>div>label{
+    font-weight: bold;
+}
+#btn-div-customer{
+    position: absolute;
+    top: 180%;
+    left: 60%;
+    display: inline-block;
+}
+#lblCreateAcount{
+    position: absolute;
+    top: 0vh;
+    left: -10vw;
+}

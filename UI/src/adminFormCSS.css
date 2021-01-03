@@ -1,0 +1,237 @@
+#adminFormMain{
+    overflow: hidden;
+    display: block;
+}
+#sec1-admin{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #273c75;
+}
+#sec1-sec1-admin{
+    position: relative;
+    top: 30vh;
+    left: 0.4vw;
+    width: 98vw;
+    height: 67vh;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+#sec2-admin{
+    width: 100vw;
+    height: 185vh;
+    position: relative;
+}
+#lblCustomerRequest{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#sec2-div1-admin{
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+}
+#sec2-div2{
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 41vh;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+#sec3-admin{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #7f8fa6;
+}
+#lblCustomerPayment{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#sec3-div1-admin{
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+}
+#sec3-div2{
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+}
+
+#sec4{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#lblCarMaintance{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#sec4-div1{
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+}
+#sec4-div2 {
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+}
+#sec4-div3{
+    position: relative;
+    float: right;
+    right: 5vw;
+    top: 10vh;
+}
+#driverTable{
+    position: relative;
+    top: 10vh;
+}
+#AddRentDetail-div{
+    position: relative;
+    top: 24vh;
+    left: 5vw;
+}
+#tblrentDetail{
+    position: relative;
+    top: 31vh;
+}
+#addDriverDiv{
+    position: relative;
+    left: 2vw;
+}
+#lblAddDriver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+#driverID-driver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#driverName-driver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#driverAddress-driver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#driverContact-driver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#driverPassword-driver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#driverStatues-driver{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#addDriver-div{
+    position: relative;
+    left: 8vw;
+    top: 7vh;
+}
+#btnGroupDriver{
+    position: relative;
+    top: 15vh;
+    left: 9vw;
+}
+#lblCarNo{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblT{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#FMFD{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblFMM{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblPFKM{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblPD{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblPFM{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblbalace{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblbalace{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblRID{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblDID{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblCID{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblKM{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblRNO{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#lblCNo{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#addDriver{
+    position: relative;
+    left: 3vw;
+}
+
+

@@ -1,0 +1,109 @@
+#main-div{
+    height: 80px;
+    position: fixed;
+    background: white;
+    z-index: 3000;
+    width: 100vw;
+}
+#nav-div1 {
+    left: 60%;
+}
+
+#nav-div1 > nav {
+    padding: 20px;
+    float: right;
+}
+
+.nav-container > ul {
+    display: flex;
+    float: right;
+    align-items: start;
+}
+
+.nav-container > ul > li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.nav-container > ul > li > a {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.nav-container > ul > li > a::after{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width:100%;
+    height: 3px;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.nav-container > ul > li > a:hover{
+    color: #BE2EDD;
+}
+.nav-container > ul > li > a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+#sec3{
+    overflow-x: hidden;
+    top: 9vh;
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    background-color: #7f8fa6;
+}
+#lblCustomerPayment{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#sec3-div1{
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+}
+#sec3-div2{
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+}
+#AddCarmain-div{
+    position: relative;
+    top: 10vh;
+    left: 35%;
+}
+#sec4{
+    background-color: #f5f6fa;
+    position: relative;
+    overflow-x: hidden;
+    top: 9vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 41vh;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+#secMain{
+    overflow-x: hidden;
+    height: auto;
+    overflow-y: hidden;
+}
+

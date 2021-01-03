@@ -1,0 +1,53 @@
+#background {
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+#cus-section1 {
+    position: relative;
+    margin-top: 5vh;
+}
+
+#lblCusSignUp {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    left: 30%;
+}
+
+#users {
+    width: 40px;
+}
+
+#cus-section1-div1 {
+    position: relative;
+    left: 40%;
+}
+
+#cus-section1-div2 {
+    position: relative;
+    left: 27%;
+    top: 5vh;
+}
+
+#cus-section1-div2 > div > div > div > div > label {
+    font-weight: bold;
+}
+
+#lblUserPhoto {
+    color: white;
+    margin-right: 3px;
+}
+
+#lblUserLisenPhoto {
+    color: white;
+    margin-right: 3px;
+}
+
+#btndiv {
+    margin-top: 3vh;
+    position: relative;
+    float: right;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/customerSignIn.css">
+    <!--    admin sign in-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div id="main-div">
+        <div id="nav-div1">
+            <nav>
+                <div class="nav-container">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<section id="main" style="overflow-x: hidden">
+    <img style="position: fixed;height: 100%;width: 100%" src="assets/AdminSignIn.png">
+    <div id="lbl">
+        <label id="admin">Customer Sign In</label>
+    </div>
+    <div class="row" style="z-index: 200" id="inputFeild">
+        <div class="form-group col-6">
+            <label for="signInEmail">Email address</label>
+            <input type="email" class="form-control" id="signInEmail" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group col-6">
+            <label for="signInPassword">Email password</label>
+            <input type="text" class="form-control" id="signInPassword" aria-describedby="emailHelp">
+        </div>
+        <div id="btn-div">
+            <label id="lblCreateAcount"><a href="customerSignUp.html">Create Acount</a></label>
+            <button type="button" class="btn btn-outline-primary" onclick="signInCustomer()">Primary</button>
+            &nbsp;
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+        </div>
+    </div>
+</section>
+
+<script src="src/Controller/CustomerController.js"></script>
+<script src="src/model/customer.js"></script>
+<script src="src/Controller/details.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>

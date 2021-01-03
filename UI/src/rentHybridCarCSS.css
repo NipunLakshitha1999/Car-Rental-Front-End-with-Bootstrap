@@ -1,0 +1,66 @@
+#sec3-div2-Hybrid{
+    position: relative;
+    top: 9vh;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 41vh;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+#main-sec-Hybrid{
+    overflow-x: hidden;
+    height: 200vh;
+}
+#sec2-Hybrid{
+    position: relative;
+    top: 25vh;
+}
+#Hybrid-div{
+    width: 80vw;
+    left: 10vw;
+    position: relative;
+}
+#sec4{
+    position: relative;
+    top: 27vh;
+}
+#rent{
+    position: relative;
+    left: 83vw;
+}
+.col-3>label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+#lblLuxuryRegNo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+#lblLuxuryDate{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+#lblLuxuryTime{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+#lblLuxuryDriver{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+#lblRentCarEmail{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+#emailInput{
+    position: relative;
+    left: 10vw
+}
